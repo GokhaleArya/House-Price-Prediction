@@ -1,12 +1,11 @@
 streamlit
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-xgboost
-lightgbm
-catboost
-jupyter
-optuna
-# python should be >=3.9
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+scikit-learn>=0.24.0
+xgboost>=1.4.0
+lightgbm>=3.0.0
+catboost>=1.0.0
+jupyter>=1.0.0
+optuna>=2.10.0
