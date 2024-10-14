@@ -1,11 +1,11 @@
 pandas
-numpy==1.23.5
+numpy
 matplotlib
 seaborn
 scikit-learn
 xgboost
 lightgbm
-catboost==1.1.1
-streamlit==1.25.0
+catboost
+streamlit
 jupyter
 optuna
