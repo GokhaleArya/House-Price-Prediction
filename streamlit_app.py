@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+from catboost import CatBoostClassifier
 
 with open('./src/models/catboost_optuna.pkl', 'rb') as file:
     model = pickle.load(file)
