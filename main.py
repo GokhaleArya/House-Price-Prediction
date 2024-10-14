@@ -2,8 +2,12 @@ import streamlit as st
 import pickle
 import numpy as np
 
-with open('./src/models/catboost_optuna.pkl', 'rb') as file:
-    model = pickle.load(file)
+# with open('./src/models/catboost_optuna.pkl', 'rb') as file:
+#     model = pickle.load(file)
+from catboost import CatBoostClassifier
+# Load the model
+model = CatBoostClassifier()
+model.load_model('./src/models/catboost_optuna.pkl')
 
 st.markdown(
     """
