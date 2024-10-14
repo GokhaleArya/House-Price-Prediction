@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 with open('./src/models/catboost_optuna.pkl', 'rb') as file:
-    model = pickle.load(file)
+    model = pickle.load(file, protocol=4)
 
 st.markdown(
     """
